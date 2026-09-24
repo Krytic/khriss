@@ -17,6 +17,14 @@ class __MNRAS(__Journal):
         self.full_page = (508.0*self.pt, 0.9*682.0*self.pt)
 
 
+class __PASA(__Journal):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+        self.onecol = (514.99507*self.pt, 514.99507*self.pt/self.aspect_ratio)
+        self.twocol = (247.79752*self.pt, 247.79752*self.pt/self.aspect_ratio)
+        self.full_page = (514.99507*self.pt, 0.9*682.86615*self.pt)
+
+
 class __BOOK(__Journal):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
