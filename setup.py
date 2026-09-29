@@ -1,7 +1,7 @@
 from setuptools import setup, Extension
 import re
 
-description = 'Journal Lib'
+description = 'Khriss: print-quality figures in Python'
 
 try:
     with open('README.md', 'r', encoding='utf-8') as f:
@@ -14,7 +14,7 @@ metadata = {"version": "",
             "email": ""
             }
 
-metadata_file = open("journallib/_metadata.py", "rt").read()
+metadata_file = open("khriss/_metadata.py", "rt").read()
 
 for item in metadata.keys():
     version_regex = rf"^__{item}__ = ['\"]([^'\"]*)['\"]"
@@ -24,16 +24,16 @@ for item in metadata.keys():
     if match:
         metadata[item] = match.group(1)
 
-setup(name='journallib',
+setup(name='khriss',
       license='MIT License',
       version=metadata['version'],
       description=description,
       long_description=long_description,
       author=metadata['author'],
       author_email=metadata['email'],
-      packages=['journallib'],
+      packages=['khriss'],
       zip_safe=False,
-      homepage='https://github.com/Krytic/journallib',
+      homepage='https://github.com/Krytic/khriss',
       install_requires=['numpy',
                         'matplotlib',
                         'pandas',

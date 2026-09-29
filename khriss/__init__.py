@@ -40,12 +40,6 @@ class __BOOK(__Journal):
             setattr(self, f"PortraitA{size}", portrait)
             setattr(self, f"LandscapeA{size}", landscape)
 
-        # self.A3 = ((472.0312*2)*self.pt,
-        #            (472.0312*2)*self.pt/self.aspect_ratio)
-
-        # self.PortraitA3 = ((692.54008*2)*self.pt/self.aspect_ratio,
-        #                    (692.54008*2)*self.pt)
-
         self.onecol_A4 = ((472.0312 / 2)*self.pt,
                           (472.0312 / 2)*self.pt/self.aspect_ratio)
 
