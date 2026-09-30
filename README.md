@@ -86,8 +86,6 @@ khriss.get(journal_name, columns=None, **kwargs)
 
 Raises `ValueError` if `journal_name` isn't recognized.
 
-### Re
-
 ## Requirements
 
 - Python >= 3.11
