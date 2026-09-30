@@ -34,16 +34,6 @@ setup(name='khriss',
       packages=['khriss'],
       zip_safe=False,
       homepage='https://github.com/Krytic/khriss',
-      install_requires=['numpy',
-                        'matplotlib',
-                        'pandas',
-                        'file_read_backwards',
-                        'uncertainties',
-                        'tqdm',
-                        'glisten',
-                        'tabulate',
-                        'scipy',
-                        'colorama'
-                        ],
+      install_requires=[],
       python_version='>=3.11'
       )
