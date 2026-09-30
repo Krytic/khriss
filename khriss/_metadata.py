@@ -1,3 +1,3 @@
-__version__ = '1.0.0a'
+__version__ = '1.0.0'
 __author__ = "Sean Richards"
-__email__ = "sean.richards@auckland.ac.nz"
+__email__ = "sean.richards.astro@gmail.com"
