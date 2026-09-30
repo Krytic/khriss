@@ -12,6 +12,17 @@ This project is a work in progress — the API below is what's implemented today
 
 ## Installation
 
+### Prerequisites
+
+For best performance, you should install a TeX distribution (we recommend TeXLive) and the CMU fonts:
+
+```bash
+sudo apt install texlive
+sudo apt install fonts-cmu
+```
+
+### From PyPI
+
 Once published, Khriss will be installable from PyPI:
 
 ```bash
@@ -75,6 +86,8 @@ khriss.get(journal_name, columns=None, **kwargs)
 
 Raises `ValueError` if `journal_name` isn't recognized.
 
+### Re
+
 ## Requirements
 
 - Python >= 3.11
@@ -101,7 +114,3 @@ _(A DOI / Zenodo archive will be added here once one exists.)_
 ## License
 
 Khriss is released under the [MIT License](LICENSE).
-
-## Author
-
-Sean M. Richards ([sean.richards@auckland.ac.nz](mailto:sean.richards@auckland.ac.nz))
