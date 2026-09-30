@@ -1,0 +1,65 @@
+# To check more avaialble options see:
+# https://matplotlib.org/tutorials/introductory/customizing.html
+
+text.color : (0.2,0.2,0.2)
+
+# AXES
+axes.titlesize : 8
+axes.labelsize : 8
+axes.edgecolor : (0.1,0.1,0.1) #Normalized RGB colours (from 0 to 1 instead of 0 to 255)
+axes.labelcolor : (0.1,0.1,0.1)
+axes.linewidth : 1
+axes.spines.top : True
+axes.spines.right : True
+axes.spines.bottom : True
+axes.spines.left : True
+
+# GRID
+axes.grid : True
+grid.alpha : 0.7
+grid.linestyle : --
+grid.linewidth : 0.6
+
+# LINES
+axes.prop_cycle : cycler('color', ['EE6123', '3185FC', 'F49CBB', '694A38', 'FDCA40', '26C485', 'A3E7FC', '32908F', '553A41', '2F0601', '50514F', 'FFE066', '247BA0', '70C1B3']) #hex colours
+lines.linewidth : 1.0
+lines.markeredgewidth : 0.0
+
+# SCATTER PLOT
+scatter.marker : .
+
+# TICKS
+xtick.labelsize : 8
+xtick.color : (0.2,0.2,0.2)
+xtick.direction : in
+ytick.labelsize : 8
+ytick.color : (0.2,0.2,0.2)
+ytick.direction : in
+
+xtick.top : True
+xtick.bottom: True
+ytick.left : True
+ytick.right : True
+
+xtick.minor.visible : True
+ytick.minor.visible : True
+
+# LEGEND
+legend.fontsize : 6
+
+
+# FIGURE OUTPUT
+figure.figsize  : 7, 5
+figure.dpi : 200
+savefig.dpi : 200
+
+# TEX
+text.usetex : True
+text.latex.preamble: \usepackage{amsmath}\usepackage{amssymb}
+font.family      : serif
+font.serif       : CMU Serif
+font.sans-serif  : CMU Sans Serif
+mathtext.fontset : cm
+mathtext.default : sf
+savefig.bbox : tight
+savefig.format : pdf
